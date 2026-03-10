@@ -33,27 +33,6 @@ This design ensured a clear structure before writing the code.
 
 ---
 
-## Data Storage Approach
-
-Each sale is stored using a **dictionary**, and every dictionary is appended to a **list of sales**.
-
-Example structure:
-
-```
-[
-  {"product": "coffee", "price": 5000, "quantity": 2},
-  {"product": "bread", "price": 2000, "quantity": 4}
-]
-```
-
-This approach was chosen because it provides:
-
-* Clear separation of attributes for each sale
-* Easy iteration through all registered products
-* Flexible data processing for totals and summaries
-
----
-
 ## Program Architecture
 
 The program is organized using **modular design**, separating the logic into independent components.
@@ -168,7 +147,7 @@ Total Revenue: $10200
 ## Repository Structure
 
 ```
-store_program/
+STORE_PROGRAM/
 │
 ├── main.py
 ├── registration.py
