@@ -11,68 +11,11 @@ The system allows the store administrator to register multiple product sales dur
 
 ---
 
-## Problem Strategy
+## Problem's Flow 
 
-To solve the problem, the solution was designed around three fundamental ideas:
+![Architecture Diagram] (STORE_PROGRAM/MY_DIAGRAM_ADRIAN_PEDROZA.png)
 
-1. **Structured data storage**
-2. **Separation of responsibilities using functions**
-3. **Processing sales data after the registration phase**
 
-Before starting the implementation, the workflow of the program was analyzed and represented through a **flow diagram** that describes the sequence of operations:
-
-1. Start program
-2. Request product information
-3. Store the sale
-4. Ask if the user wants to register another sale
-5. Repeat until the user finishes
-6. Process stored data
-7. Display the final summary
-
-This design ensured a clear structure before writing the code.
-
----
-
-## Program Architecture
-
-The program is organized using **modular design**, separating the logic into independent components.
-
-### 1. Sales Registration Module
-
-Responsible for:
-
-* Requesting user input
-* Capturing product name, price, and quantity
-* Storing each sale in a list
-* Allowing multiple entries until the user finishes
-
-### 2. Product Listing Module
-
-Responsible for:
-
-* Iterating through stored sales
-* Displaying a structured list of registered products
-
-### 3. Revenue Calculation Module
-
-Responsible for:
-
-* Calculating the total revenue of the day
-* Multiplying the **unit price by quantity** for each registered sale
-* Accumulating the result into a final total
-
----
-
-## Execution Flow
-
-The main script coordinates the program by calling the different modules in sequence:
-
-1. Register sales
-2. Display the list of products
-3. Calculate the total revenue
-4. Show the final daily summary
-
-This structure improves readability, maintainability, and code reuse.
 
 ---
 
