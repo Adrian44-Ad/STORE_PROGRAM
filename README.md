@@ -13,7 +13,7 @@ The system allows the store administrator to register multiple product sales dur
 
 ## Problem's Flow 
 
-![Architecture Diagram] (MY_DIAGRAM_ADRIAN_PEDROZA.png)
+![Architecture Diagram](MY_DIAGRAM_ADRIAN_PEDROZA.png)
 
 
 
