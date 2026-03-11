@@ -19,7 +19,7 @@ The system allows the store administrator to register multiple product sales dur
 
 ---
 
-## Example Output
+## Example Output of Code
 
 ```
 
